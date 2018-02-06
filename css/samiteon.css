@@ -1,0 +1,9 @@
+﻿ .page_title {
+            float: left;
+            width: 100%;
+            margin-top: -9%;
+            border-bottom: 0px solid #e1e1e1;
+        }
+        .page_title .title h1 {
+            color:white;
+        }

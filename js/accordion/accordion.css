@@ -1,0 +1,85 @@
+﻿/*	ACCORDION */
+.accrodation { width: 100%; }
+.acc-trigger { cursor: pointer; display: block; margin: 0 0 0 0; width: 100%; background-color:#fff;	}
+
+.acc-trigger:last-of-type, .acc-container:last-of-type { margin-bottom: 20px; }
+
+.no-js .acc-trigger:last-of-type { border-bottom: none; }
+
+.acc-trigger a { background: url(../../images/accordion-ico.png) no-repeat 20px 13px; display: block; padding: 11px 20px 11px 50px; text-decoration: none; text-shadow: none; font-family: 'Open Sans'; font-size: 14px; font-weight: 600; color: #545454; border: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc;}
+
+.acc-trigger a:hover { background-color: #fc591a; color:#fff; }
+
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover { color: #3d6106; border-bottom: 1px solid #fff;  }
+
+.acc-trigger.active a:hover { background-color: transparent; }
+
+.acc-trigger.active { cursor: default; background:#fc591a; color:#fff;}
+
+.acc-trigger.active:last-of-type { border-bottom: none; margin-bottom: 0; }
+
+.acc-trigger.active a { background-position: 20px -58px; cursor: default; color:#FFF;	}
+
+.acc-container .content {  padding: 14px 14px 15px 22px; color: #999;  margin-bottom: 4px; background-color: #fff; border: 1px solid #dcdcdc; border-top: 0px solid #e4e4e4;  }
+
+.accrodation h1{ text-align:center;}
+
+
+
+
+/*	ACCORDION02 */
+.accrodation02 { width: 100%; }
+.acc-trigger02 { cursor: pointer; display: block; margin: 0 0 0 0; width: 100%; margin-bottom:15px;	}
+
+.acc-trigger02:last-of-type, .acc-container02:last-of-type { margin-bottom: 20px; }
+
+.no-js .acc-trigger02:last-of-type { border-bottom: none; }
+
+.acc-trigger02 a { background: url(../../images/accordion-ico2.png) no-repeat 20px 13px; display: block; padding: 11px 20px 11px 50px; text-decoration: none; text-shadow: none; font-family: 'Open Sans'; font-size: 14px; font-weight: 600; color: #545454; border: 1px solid #dcdcdc; border-radius:10px; box-shadow: 1px 1px 6px rgba(50, 50, 50, 0.3);}
+
+.acc-trigger02 a:hover { color:#000; }
+
+.acc-trigger02 a:hover, .acc-trigger02.active a, .acc-trigger02.active a:hover { color: #fc591a;  }
+
+.acc-trigger02.active a:hover { background-color: transparent; }
+
+.acc-trigger02.active { cursor: default; background:#fff; color:#fc591a;}
+
+.acc-trigger02.active:last-of-type { border-bottom: none; margin-bottom: 0; }
+
+.acc-trigger02.active a { background-position: 20px -58px; cursor: default; color:#fc591a;	}
+
+.acc-container02 .content {  padding: 0px 14px 15px 22px; color: #999;  margin-bottom: 4px; background-color: #fff; }
+
+.accrodation02 h1{ text-align:center;}
+
+
+
+
+
+
+/*	ACCORDION03 */
+.accrodation03 { width: 100%; }
+.acc-trigger03 { cursor: pointer; display: block; margin: 0 0 0 0; width: 100%; background-color:#fff;	}
+
+.acc-trigger03:last-of-type, .acc-container03:last-of-type { margin-bottom: 20px; }
+
+.no-js .acc-trigger03:last-of-type { border-bottom: none; }
+
+.acc-trigger03 a { background: url(../../images/accordion-ico3.png) no-repeat 20px 13px; display: block; padding: 11px 20px 11px 50px; text-decoration: none; text-shadow: none; font-family: 'Open Sans'; font-size: 14px; font-weight: 600; color: #3d3d3d; border: 1px solid #dcdcdc; border-bottom: 1px solid #e4e4e4;}
+
+.acc-trigger03 a:hover { background-color: #ccc; color:#000; }
+
+.acc-trigger03 a:hover, .acc-trigger03.active a, .acc-trigger03.active a:hover { color: #000; border-bottom: 1px solid #fff;  }
+
+.acc-trigger03.active a:hover { background-color: transparent; }
+
+.acc-trigger03.active { cursor: default; background:#e6e6e6; color:#000;}
+
+.acc-trigger03.active:last-of-type { border-bottom: none; margin-bottom: 0; }
+
+.acc-trigger03.active a { background-position: 20px -58px; cursor: default; color:#3d3d3d;	}
+
+.acc-container03 .content {  padding: 14px 14px 15px 22px; color: #727272;  margin-bottom: 4px; background-color: #fff; border: 1px solid #dcdcdc; border-top: 0px solid #e4e4e4;  }
+
+.accrodation03 h1{ text-align:center;}
