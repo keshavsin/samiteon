@@ -3688,9 +3688,10 @@ p.error {
 	background-color: #e6f3ff;
 }
 .error {
-	color: #bd6767;
-	border-color: #f1bdbd;
-	background-color: #ffdddd;
+    color: red;
+    border-color: red;
+    font-size: 16px;
+    padding: 10px;
 }
 .notice {
 	color: #a79a30;

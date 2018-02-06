@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 
 
@@ -254,7 +254,7 @@
                     </a>
                     <br />
 
-<h5 class="text-center" style="color:red;">
+<h5 class="text-center" style="color:red;margin-top: 35px;">
 <?php 
 if(isset($_POST['submit'])){
     $to = "support@samiteon.com"; // this is your Email address
@@ -270,19 +270,21 @@ $err='';
 		$err .='<li>'.'Please enter FName'.'</li>';
 	}
 	
-	if($Last_name =='') {
-		$err .='<li>'.'Please enter LName'.'</li>';
-	}
+
 					
 	// validate email
 	if($from =='') {
 		$err .='<li>'.'Please enter Email address'.'</li>';
 	}
-
+	
+// validate Captcha
+	if ($_SESSION["securityCode"] != $_POST["secCode"]) {
+$err .='<li>'.'Wrong Captcha Entered'.'</li>';
+unset($_SESSION['securityCode']); 
+}
+	
 	// validate attachments
-	if( $phone =='' ) {
-		$err .='<li>'.'Please enter Phone number'.'</li>';
-	}
+
 	if( $subject =='' ) {
 		$err .='<li>'.'Please Select subject detail'.'</li>';
 	}
@@ -357,6 +359,13 @@ $err='';
               <label class="textarea"> <i class="icon-append icon-comment"></i>
                 <textarea rows="4" name="message" id="message" required=""></textarea>
               </label>
+            </section>
+			<section>
+              <label class="label">Security Code*</label>
+              <label class="input"> <i class="icon-append icon-tag"></i>
+			   <input class="text" name="secCode" type="text" size="10" class="comming_place"  required=""/> 
+              </label><br/>
+              <img class="text-center" src="securityCode.php" alt="security code" border="1" style="height: 45px;" /> 
             </section>
           </fieldset>
           <footer>
@@ -602,7 +611,7 @@ $err='';
         <script type="text/javascript" src='js/revolutionslider/rs-plugin/js/jquery.themepunch.plugins.min.js'></script>
         <script type="text/javascript" src='js/revolutionslider/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
 
-        <script type="text/javascript" src='js/mainmenu/scripts.html'></script>
+        <!--<script type="text/javascript" src='js/mainmenu/scripts.html'></script> -->
 
         <!-- top show hide plugin script-->
         <script src='js/show-hide-plugin/showHide.js' type="text/javascript"></script>
@@ -646,7 +655,7 @@ $err='';
         </script>
 
         <!-- accordion -->
-        <script type="text/javascript" src='js/accordion/custom.js'></script>
+        <!-- <script type="text/javascript" src='js/accordion/custom.js'></script> -->
 
         <!-- REVOLUTION SLIDER -->
         <script type="text/javascript">
