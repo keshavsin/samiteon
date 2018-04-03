@@ -1,7 +1,7 @@
-﻿<!DOCTYPE html>
-
-
-
+<?php
+session_start();
+?>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -80,31 +80,21 @@
 
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-	
 	<link rel="stylesheet" href="js/form/sky-forms.css">
-
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-
-
     <style>
         nav a:hover {
             color: #02b3e6 !important;
         }
     </style>
 </head>
-
 <body>
-
-
        <header id="header">
-
             <!-- Top header bar -->
             <div id="topHeader">
                 <div class="wrapper">
-
                     <div class="top_contact_info">
 
                         <div class="container">
@@ -244,7 +234,7 @@
         <div class="clearfix mar_top5"></div>
 
 
-		
+
         <div class="container">
             <div class="content_fullwidth">
                 <div class="one_half">
@@ -255,7 +245,7 @@
                     <br />
 
 <h5 class="text-center" style="color:red;margin-top: 35px;">
-<?php 
+<?php
 if(isset($_POST['submit'])){
     $to = "support@samiteon.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
@@ -269,20 +259,21 @@ $err='';
     if($first_name =='') {
 		$err .='<li>'.'Please enter FName'.'</li>';
 	}
-	
 
-					
+
+
 	// validate email
 	if($from =='') {
 		$err .='<li>'.'Please enter Email address'.'</li>';
 	}
-	
+
 // validate Captcha
+
 	if ($_SESSION["securityCode"] != $_POST["secCode"]) {
 $err .='<li>'.'Wrong Captcha Entered'.'</li>';
-unset($_SESSION['securityCode']); 
+unset($_SESSION['securityCode']);
 }
-	
+
 	// validate attachments
 
 	if( $subject =='' ) {
@@ -290,13 +281,13 @@ unset($_SESSION['securityCode']);
 	}
 	if( $message =='' ) {
 		$err .='<li>'.'Please enter Message detail'.'</li>';
-	}			
+	}
 	if($err) {
 		echo '<div class="error">'.$err.'</div>';
-	}		
-	
+	}
+
 	else {
-   
+
 	$subject = "Online Enquiry";
 
     $message .="First Name: " .$first_name."\n\n";
@@ -306,7 +297,7 @@ unset($_SESSION['securityCode']);
     $message .="Subject: " . $_POST['subject'] ."\n\n";
     $message .= "Message: " . $_POST['message']."\n\n";
 
-    
+
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
@@ -314,12 +305,12 @@ unset($_SESSION['securityCode']);
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
 
     }
-    
+
     }
-?> </h5>	
+?> </h5>
 
                     <br />
-                   <form id="contact-form" method="POST" action="" class="sky-form">
+        <form id="contact-form" method="POST" action="" class="sky-form">
           <header>Reach <strong>Samiteon</strong></header>
           <fieldset>
             <div class="row">
@@ -363,9 +354,9 @@ unset($_SESSION['securityCode']);
 			<section>
               <label class="label">Security Code*</label>
               <label class="input"> <i class="icon-append icon-tag"></i>
-			   <input class="text" name="secCode" type="text" size="10" class="comming_place"  required=""/> 
+			   <input class="text" name="secCode" type="text" size="10"  required=""/>
               </label><br/>
-              <img class="text-center" src="securityCode.php" alt="security code" border="1" style="height: 45px;" /> 
+              <img class="text-center" src="securityCode.php" alt="security code" border="1" style="height: 60px;width:180px" />
             </section>
           </fieldset>
           <footer>
@@ -581,7 +572,7 @@ unset($_SESSION['securityCode']);
         </div>
 
 
-        
+
         <div class="footer_copyright">
             <div class="container">
                 <div class="clearfix mar_top1"></div>
@@ -686,7 +677,7 @@ unset($_SESSION['securityCode']);
         <script src='js/mainmenu/fhmm.js'></script>
 
         <!-- testimonials -->
-        <script type="text/javascript">//<![CDATA[ 
+        <script type="text/javascript">//<![CDATA[
             $(window).load(function () {
                 $(".controlls02 li a").click(function (e) {
                     e.preventDefault();
@@ -695,7 +686,7 @@ unset($_SESSION['securityCode']);
                         $('div#' + id).fadeIn();
                     })
                 });
-            });//]]>  
+            });//]]>
 
         </script>
 
