@@ -1,41 +1,22 @@
-<?php
+﻿<?php
 session_start();
 ?>
 <!DOCTYPE html>
+
 <html>
 
 <head>
-    <title>
-        Samiteon
-    </title>
+    <title>Samiteon - Louisville</title>
     <meta charset="utf-8" />
-    <meta name="keywords" content="Data Storage, Data Protection, Data Center &amp; Cloud, Data Security" />
-    <meta name="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project &amp; Program Management, Portfolio Management, &amp; IT Security - PCI-DSS, and HIPPA."
-    />
-    <meta itemprop="name" content="Data protection | Data Storage | Data Security | Data Center &amp; Cloud" />
-    <link rel="canonical" href="http://www.samiteon.com/" />
-    <meta itemprop="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project &amp; Program Management, Portfolio Management, &amp; IT Security - PCI-DSS, and HIPPA."
-    />
-    <meta property="og:title" content="Data Center &amp; Cloud" />
-    <meta property="og:site_name" content="Samiteon" />
-    <meta property="og:url" content="http://www.Samiteon.com/" />
-    <meta property="og:description" content="Samiteon provides a consultative, best practice-based approach to solving business needs and mitigating risk."
-    />
-    <meta property="og:type" content="website" />
-    <meta name="language" content="English" />
-    <meta name="allow-search" content="yes" />
-    <meta name="identifier-URL" content="http://www.samiteon.com" />
-    <meta name="robots" content="index, follow" />
-    <meta name="rating" content="general" />
-    <meta name="copyright" content="2018, Samiteon" />
-    <meta name="expires" content="never" />
-    <meta name="audience" content="All" />
-    <meta name="author" content="Samiteon" />
-    <meta name="classification" content="Data protection , Data Storage , Data Security , Data Center &amp; Cloud" />
-    <meta name="distribution" content="global" />
-    <meta name="DC.title" content="Data Protection" />
-    <meta name="geo.region" content="USA" />
-    <meta name="geo.placename" content=" Louisville" />
+    <meta name="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project &amp; Program Management, Portfolio Management, &amp; IT Security - PCI-DSS, and HIPPA." />
+    <meta name="keywords" content="Data Storage, Data Protection, Data Center &amp; Cloud, Data Security">
+	<meta name="title" content="659 South, 8th Street, 2nd Floor, Louisville KY 40203">
+    <meta name="author" content="www.samiteon.com">
+    <meta name="copyright" content="© 2018, Samiteon, Louisville">
+    <meta name="robots" content="index,follow">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="revisit-after" content="7 Day">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.png" />
@@ -80,21 +61,31 @@ session_start();
 
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	
 	<link rel="stylesheet" href="js/form/sky-forms.css">
+
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+
+
+
     <style>
         nav a:hover {
             color: #02b3e6 !important;
         }
     </style>
 </head>
+
 <body>
+
+
        <header id="header">
+
             <!-- Top header bar -->
             <div id="topHeader">
                 <div class="wrapper">
+
                     <div class="top_contact_info">
 
                         <div class="container">
@@ -105,11 +96,11 @@ session_start();
                                 </li>
                                 <li>|</li>
                                 <li>
-                                    <a href="Company.html">Company</a>
+                                    <a href="samiteon-company.html">Company</a>
                                 </li>
                                 <li>|</li>
                                 <li>
-                                    <a href="Contact.php">Contact Us</a>
+                                    <a href="samiteon-contact.php">Contact Us</a>
                                 </li>
                                 <!--
                     <li>|</li>
@@ -190,25 +181,25 @@ session_start();
 
 
                                         <li id="dp">
-                                            <a href="DataProtection.html">Data Protection</a>
+                                            <a href="data-protection.html">Data Protection</a>
 
                                         </li>
 
 
                                         <li id="ds">
-                                            <a href="DataStorage.html">Data Storage</a>
+                                            <a href="data-storage.html.html">Data Storage</a>
 
                                         </li>
 
 
                                         <li id="dc">
-                                            <a href="DataCenter.html">Data Center & Cloud</a>
+                                            <a href="data-center.html">Data Center & Cloud</a>
 
                                         </li>
 
 
                                         <li id="ss">
-                                            <a href="SamiteonServices.html">Samiteon Services</a>
+                                            <a href="samiteon-services.html">Samiteon Services</a>
 
                                         </li>
 
@@ -234,8 +225,8 @@ session_start();
         <div class="clearfix mar_top5"></div>
 
 
-
-        <div class="container">
+		
+          <div class="container">
             <div class="content_fullwidth">
                 <div class="one_half">
                     <a href="https://service.ariba.com/Discovery.aw/ad/profile?key=AN01059362812" target="_blank">
@@ -407,7 +398,7 @@ unset($_SESSION['securityCode']);
                 <div class="one_fourth">
 
                     <div class="footer_logo">
-                        <img src='images/flogo2.png' alt="" />
+                        <img src='images/samiteon-footer-logo.png.png' alt="" />
                     </div>
                     <!-- end footer logo -->
 
@@ -420,8 +411,8 @@ unset($_SESSION['securityCode']);
                         <li>
                             <i class="fa fa-envelope"></i>&nbsp; support@samiteon.com</li>
                         <li>
-                            <a href="SamiteonServices.html">
-                                <img src='images/footerban1.png' alt="" />
+                            <a href="samiteon-services.html">
+                                <img src='images/samiteon-footer-label.png' alt="" />
                             </a>
                         </li>
 
@@ -436,12 +427,12 @@ unset($_SESSION['securityCode']);
                 <div class="one_fourth">
 
                     <h3 style="color: white;">
-                        <a href="Company.html">About Us</a>
+                        <a href="samiteon-company.html">About Us</a>
                     </h3>
 
                     <p class="" style="text-align: justify; color: #777777;">
                         Our technology firm is here to help you and your business. From any engineering needs you might have to product development.&nbsp;
-                        <a href="Company.html">Read more&nbsp;
+                        <a href="samiteon-company.html">Read more&nbsp;
                             <i class="fa fa-angle-double-right"></i>
                         </a>
 
@@ -451,15 +442,15 @@ unset($_SESSION['securityCode']);
 
                     <ul class="list">
                         <li>
-                            <a href="Terms&Conditions.html">
+                            <a href="samiteon-terms-and-conditions.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Terms & Conditions</a>
                         </li>
                         <li>
-                            <a href="RefundPolicy.html">
+                            <a href="samiteon-refund-policy.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Refund Policy</a>
                         </li>
                         <li>
-                            <a href="PrivacyPolicy.html">
+                            <a href="samiteon-privacy-policy.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Privacy Policy</a>
                         </li>
                     </ul>
@@ -471,37 +462,37 @@ unset($_SESSION['securityCode']);
 
 
                     <h3 style="color: white;">
-                        <a href="DataProtection.html">Data Protection</a>
+                        <a href="data-protection.html">Data Protection</a>
                     </h3>
 
                     <ul class="list">
                         <li>
-                            <a href="DataProtection/Veeam.html">
+                            <a href="data-protection/samiteon-veeam.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Veeam</a>
                         </li>
 
                         <li>
-                            <a href="DataProtection/Cohesity.html">
+                            <a href="data-protection.html/samiteon-cohesity.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Cohesity</a>
                         </li>
                     </ul>
 
 
                     <h3 style="color: white;">
-                        <a href="DataCenter.html">Data Center & Cloud</a>
+                        <a href="data-center.html">Data Center & Cloud</a>
                     </h3>
 
                     <ul class="list">
                         <li>
-                            <a href="DataCenter/Dellemc.html">
+                            <a href="data-center/samiteon-dell-emc.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; DELL EMC</a>
                         </li>
                         <li>
-                            <a href="DataCenter/Nutanix.html">
+                            <a href="data-center/samiteon-nutanix.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Nutanix</a>
                         </li>
                         <li>
-                            <a href="DataCenter/RedHat.html">
+                            <a href="data-center/samiteon-redhat.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Redhat</a>
                         </li>
                     </ul>
@@ -514,46 +505,46 @@ unset($_SESSION['securityCode']);
                 <div class="one_fourth">
 
                     <h3 style="color: white;">
-                        <a href="DataStorage.html">Data Storage</a>
+                        <a href="data-storage.html.html">Data Storage</a>
                     </h3>
                     <ul class="list">
                         <li>
-                            <a href="DataStorage/Dellemc.html">
+                            <a href="data-storage/samiteon-dell-emc.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; DELLEMC</a>
                         </li>
                         <li>
-                            <a href="DataStorage/Infinidat.html">
+                            <a href="data-storage/samiteon-infinidat.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Infinidat Unified Storage Array</a>
                         </li>
                         <li>
-                            <a href="DataStorage/Nutanix.html">
+                            <a href="data-storage/samiteon-nutanix.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Nutanix</a>
                         </li>
                         <li>
-                            <a href="DataStorage/RedHat.html">
+                            <a href="data-storage/samiteon-redhat.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; RedHat</a>
                         </li>
                     </ul>
 
                     <h3 style="color: white;">
-                        <a href="SamiteonServices.html">Services</a>
+                        <a href="samiteon-services.html">Services</a>
                     </h3>
 
                     <ul class="list">
                         <li>
-                            <a href="SamiteonServices/Cryptocurrency.html">
+                            <a href="samiteon-services/samiteon-cryptocurrency.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Cryptocurrency Managed Services</a>
                         </li>
                         <li>
-                            <a href="SamiteonServices/Internet.html">
+                            <a href="samiteon-services/samiteon-internet-of-things.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Internet Of Things</a>
                         </li>
                         <li>
-                            <a href="SamiteonServices/Professional.html">
+                            <a href="samiteon-services/samiteon-professional-services.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Professional Services</a>
                         </li>
                         <li>
-                            <a href="SamiteonServices/Managed.html">
+                            <a href="samiteon-services/samiteon-managed-services.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Managed Services</a>
                         </li>
                     </ul>
@@ -572,7 +563,7 @@ unset($_SESSION['securityCode']);
         </div>
 
 
-
+        
         <div class="footer_copyright">
             <div class="container">
                 <div class="clearfix mar_top1"></div>
@@ -677,7 +668,7 @@ unset($_SESSION['securityCode']);
         <script src='js/mainmenu/fhmm.js'></script>
 
         <!-- testimonials -->
-        <script type="text/javascript">//<![CDATA[
+        <script type="text/javascript">//<![CDATA[ 
             $(window).load(function () {
                 $(".controlls02 li a").click(function (e) {
                     e.preventDefault();
@@ -686,7 +677,7 @@ unset($_SESSION['securityCode']);
                         $('div#' + id).fadeIn();
                     })
                 });
-            });//]]>
+            });//]]>  
 
         </script>
 
