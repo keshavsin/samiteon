@@ -13,13 +13,13 @@ session_start();
 	<meta name="title" content="659 South, 8th Street, 2nd Floor, Louisville KY 40203">
     <meta name="author" content="www.samiteon.com">
     <meta name="copyright" content="© 2018, Samiteon, Louisville">
-    <meta name="robots" content="index,follow">
+     <meta name="robots" content="index,follow">
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
     <meta name="revisit-after" content="7 Day">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/samiteon-favicon.png" />
 
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -116,14 +116,14 @@ session_start();
                                     <a href="#">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; support@samiteon.com</a>
                                 </li>
-                                <!--                <li class="empty"><a href="#"><i class="icon-skype"></i> Your Skype</a></li>-->
+                                
                                 <span class="Sam_social">
                                     <li>
                                         <a href="#">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                     </li>
-                                    <!--                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                                   
                                     <li>
                                         <a href="#">
                                             <i class="fa fa-google-plus"></i>
@@ -135,11 +135,6 @@ session_start();
                                         </a>
                                     </li>
 
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
                                 </span>
                                 <!--
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
@@ -187,7 +182,7 @@ session_start();
 
 
                                         <li id="ds">
-                                            <a href="data-storage.html.html">Data Storage</a>
+                                            <a href="data-storage.html">Data Storage</a>
 
                                         </li>
 
@@ -230,7 +225,7 @@ session_start();
             <div class="content_fullwidth">
                 <div class="one_half">
                     <a href="https://service.ariba.com/Discovery.aw/ad/profile?key=AN01059362812" target="_blank">
-                        <img src="images/ariba.jpg" title="Click to find Us on Ariba Network" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;"
+                        <img src="images/samiteon-ariba-network.jpg" title="Click to find Us on Ariba Network" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;" alt="samiteon-ariba-network"
                         />
                     </a>
                     <br />
@@ -398,7 +393,7 @@ unset($_SESSION['securityCode']);
                 <div class="one_fourth">
 
                     <div class="footer_logo">
-                        <img src='images/samiteon-footer-logo.png.png' alt="" />
+                        <img src='images/samiteon-footer-logo.png' alt="" />
                     </div>
                     <!-- end footer logo -->
 
@@ -472,7 +467,7 @@ unset($_SESSION['securityCode']);
                         </li>
 
                         <li>
-                            <a href="data-protection.html/samiteon-cohesity.html">
+                            <a href="data-protection/samiteon-cohesity.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Cohesity</a>
                         </li>
                     </ul>
@@ -505,7 +500,7 @@ unset($_SESSION['securityCode']);
                 <div class="one_fourth">
 
                     <h3 style="color: white;">
-                        <a href="data-storage.html.html">Data Storage</a>
+                        <a href="data-storage.html">Data Storage</a>
                     </h3>
                     <ul class="list">
                         <li>
