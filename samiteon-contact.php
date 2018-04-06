@@ -8,7 +8,7 @@ session_start();
 <head>
     <title>Samiteon - Louisville</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project &amp; Program Management, Portfolio Management, &amp; IT Security - PCI-DSS, and HIPPA." />
+    <meta name="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project & Program Management, Portfolio Management, & IT Security - PCI-DSS, and HIPPA." />
     <meta name="keywords" content="Data Storage, Data Protection, Data Center &amp; Cloud, Data Security">
 	<meta name="title" content="659 South, 8th Street, 2nd Floor, Louisville KY 40203">
     <meta name="author" content="www.samiteon.com">
