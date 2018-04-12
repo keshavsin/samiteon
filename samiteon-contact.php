@@ -1,10 +1,8 @@
 ﻿<?php
-session_start();
+@session_start();
 ?>
 <!DOCTYPE html>
-
 <html>
-
 <head>
     <title>Samiteon - Louisville</title>
     <meta charset="utf-8" />
