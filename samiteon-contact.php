@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Samiteon-contact</title>
+    <title>samiteon-contact</title>
     <meta charset="utf-8" />
     <meta name="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project & Program Management, Portfolio Management, & IT Security - PCI-DSS, and HIPPA." />
     <meta name="keywords" content="Data Storage, Data Protection, Data Center &amp; Cloud, Data Security">
@@ -32,30 +32,22 @@
     <!-- responsive devices styles -->
     <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
-
     <!-- style switcher -->
     <link rel="stylesheet" media="screen" href="js/style-switcher/color-switcher.css" />
-
     <!-- sticky menu -->
     <link rel="stylesheet" href="js/sticky-menu/core.css" />
     <link href="js/mainmenu/bootstrap.css" rel="stylesheet" />
     <link href="js/mainmenu/fhmm.css" rel="stylesheet" />
-
     <!-- REVOLUTION SLIDER -->
     <link rel="stylesheet" type="text/css" href="js/revolutionslider/rs-plugin/css/settings.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="js/revolutionslider/css/slider_main.css" media="screen" />
-
     <!-- jquery jcarousel -->
     <link rel="stylesheet" type="text/css" href="js/jcarousel/skin.css" />
-
     <!-- testimonials -->
     <link rel="stylesheet" href="js/testimonials/fadeeffect.css" type="text/css" media="all" />
-
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-	
 	<link rel="stylesheet" href="js/form/sky-forms.css">
-
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -84,10 +76,6 @@
                                 <li>
                                     <a href="samiteon-contact.php">Contact Us</a>
                                 </li>
-                                <!--
-                    <li>|</li>
-                    <li><a href="#">Buy Now!</a></li>
-    -->
                             </ul>
                             <ul class="tci_list">
                                 <li class="empty">
@@ -113,10 +101,6 @@
                                         </a>
                                     </li>
                                 </span>
-                                <!--
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
-    -->
                             </ul>
                         </div>
                     </div>
@@ -206,7 +190,6 @@ unset($_SESSION['securityCode']);
 	if($err) {
 		echo '<div class="error">'.$err.'</div>';
 	}
-
 	else {
 	$subject = "Online Enquiry";
     $message .="First Name: " .$first_name."\n\n";
@@ -372,7 +355,6 @@ unset($_SESSION['securityCode']);
                             <a href="data-protection/samiteon-veeam.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Veeam</a>
                         </li>
-
                         <li>
                             <a href="data-protection/samiteon-cohesity.html">
                                 <i class="fa fa-angle-right"></i>&nbsp; Cohesity</a>
@@ -453,7 +435,6 @@ unset($_SESSION['securityCode']);
                 <div class="three_fourth">
                     <b>Copyright © 2018
                         <span>Samiteon</span>.All rights reserved. </div>
-
                 <div class="clearfix mar_top1"></div>
             </div>
         </div>
@@ -461,27 +442,19 @@ unset($_SESSION['securityCode']);
         <!-- ######### JS FILES ######### -->
         <!-- get jQuery from the google apis -->
         <script type="text/javascript" src='js/universal/jquery.js'></script>
-
         <!-- style switcher -->
         <script src='js/style-switcher/jquery-1.js'></script>
-
-
         <!-- jquery jcarousel -->
         <script type="text/javascript" src='js/jcarousel/jquery.jcarousel.min.js'></script>
-
         <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
         <script type="text/javascript" src='js/revolutionslider/rs-plugin/js/jquery.themepunch.plugins.min.js'></script>
         <script type="text/javascript" src='js/revolutionslider/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
-
         <!--<script type="text/javascript" src='js/mainmenu/scripts.html'></script> -->
-
         <!-- top show hide plugin script-->
         <script src='js/show-hide-plugin/showHide.js' type="text/javascript"></script>
-
         <!-- scroll up -->
         <script type="text/javascript">
             $(document).ready(function () {
-
                 $(window).scroll(function () {
                     if ($(this).scrollTop() > 100) {
                         $('.scrollup').fadeIn();
@@ -489,43 +462,30 @@ unset($_SESSION['securityCode']);
                         $('.scrollup').fadeOut();
                     }
                 });
-
                 $('.scrollup').click(function () {
                     $("html, body").animate({ scrollTop: 0 }, 500);
                     return false;
                 });
-
             });
         </script>
-
         <!-- jquery jcarousel -->
         <script type="text/javascript">
-
             jQuery(document).ready(function () {
                 jQuery('#mycarousel').jcarousel();
-
             });
-
             jQuery(document).ready(function () {
                 jQuery('#mycarouseltwo').jcarousel();
             });
-
             jQuery(document).ready(function () {
                 jQuery('#mycarouselthree').jcarousel();
             });
-
         </script>
-
         <!-- accordion -->
         <!-- <script type="text/javascript" src='js/accordion/custom.js'></script> -->
-
         <!-- REVOLUTION SLIDER -->
         <script type="text/javascript">
-
             var revapi;
-
             jQuery(document).ready(function () {
-
                 revapi = jQuery('.tp-banner').revolution(
                     {
                         delay: 9000,
@@ -535,18 +495,13 @@ unset($_SESSION['securityCode']);
                         fullWidth: "on",
                         forceFullWidth: "on"
                     });
-
             });	//ready
-
         </script>
-
         <script type="text/javascript" src='js/sticky-menu/core.js'></script>
         <script type="text/javascript" src='js/sticky-menu/modernizr.custom.75180.js'></script>
-
         <!-- mega menu -->
         <script src='js/mainmenu/bootstrap.min.js'></script>
         <script src='js/mainmenu/fhmm.js'></script>
-
         <!-- testimonials -->
         <script type="text/javascript">//<![CDATA[ 
             $(window).load(function () {
@@ -558,10 +513,7 @@ unset($_SESSION['securityCode']);
                     })
                 });
             });//]]>  
-
         </script>
-
-
         <script type="text/javascript">
             // Menu drop down effect
             $('.dropdown-toggle').dropdownHover().dropdown();
