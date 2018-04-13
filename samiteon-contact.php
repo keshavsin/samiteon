@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Samiteon - Louisville</title>
+    <title>Samiteon-contact</title>
     <meta charset="utf-8" />
     <meta name="description" content="Samiteon, has been profitable every year since 2006. Our team is well versed in strategy, technology, lean development, Six Sigma, ITIL, Project & Program Management, Portfolio Management, & IT Security - PCI-DSS, and HIPPA." />
     <meta name="keywords" content="Data Storage, Data Protection, Data Center &amp; Cloud, Data Security">
@@ -15,23 +15,17 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
     <meta name="revisit-after" content="7 Day">
-
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/samiteon-favicon.png" />
-
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,700italic,700,600italic,600,400italic,300italic,300|Roboto:100,300,400,500,700&amp;subset=latin,latin-ext"
         type="text/css" />
-
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
     <!-- ######### CSS STYLES ######### -->
-
     <link rel="stylesheet" href="css/reset.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link href="css/samiteon.css" rel="stylesheet" />
@@ -65,29 +59,19 @@
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-
-
     <style>
         nav a:hover {
             color: #02b3e6 !important;
         }
     </style>
 </head>
-
 <body>
-
-
        <header id="header">
-
             <!-- Top header bar -->
             <div id="topHeader">
                 <div class="wrapper">
-
                     <div class="top_contact_info">
-
                         <div class="container">
-
                             <ul class="tci_list_left">
                                 <li>
                                     <a href="index.html">Home</a>
@@ -105,24 +89,20 @@
                     <li><a href="#">Buy Now!</a></li>
     -->
                             </ul>
-
                             <ul class="tci_list">
-
                                 <li class="empty">
                                     <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 502-639-3666</li>
                                 <li class="empty">
                                     <a href="#">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; support@samiteon.com</a>
                                 </li>
-                                
                                 <span class="Sam_social">
                                     <li>
                                         <a href="#">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                     </li>
-                                   
-                                    <li>
+                                     <li>
                                         <a href="#">
                                             <i class="fa fa-google-plus"></i>
                                         </a>
@@ -132,34 +112,26 @@
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </li>
-
                                 </span>
                                 <!--
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="#"><i class="fa fa-rss"></i></a></li>
     -->
-
                             </ul>
-
                         </div>
-
                     </div>
                     <!-- end top contact info -->
-
                 </div>
             </div>
             <div id="trueHeader">
                 <div class="wrapper">
                     <div class="container">
-
                         <!-- Logo -->
                         <div class="one_fourth">
                             <a href="index.html" id="logo"></a>
                         </div>
-
                         <!-- Menu -->
                         <div class="menu_main">
-
                             <nav class="navbar navbar-default fhmm" role="navigation">
                                 <div class="navbar-header">
                                     <button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle">Menu
@@ -167,58 +139,31 @@
                                     </button>
                                 </div>
                                 <!-- end navbar-header -->
-
                                 <div id="defaultmenu" class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav" style="font-size: 12.5px;">
-
-
-
                                         <li id="dp">
                                             <a href="data-protection.html">Data Protection</a>
-
                                         </li>
-
-
                                         <li id="ds">
                                             <a href="data-storage.html">Data Storage</a>
-
                                         </li>
-
-
                                         <li id="dc">
                                             <a href="data-center.html">Data Center & Cloud</a>
-
                                         </li>
-
-
                                         <li id="ss">
                                             <a href="samiteon-services.html">Samiteon Services</a>
-
                                         </li>
-
-
-
-
                                     </ul>
-
                                 </div>
                                 <!-- end #navbar-collapse-1 -->
-
                             </nav>
-
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
         <div class="clearfix"></div>
-
-
         <div class="clearfix mar_top5"></div>
-
-
-		
           <div class="container">
             <div class="content_fullwidth">
                 <div class="one_half">
@@ -227,7 +172,6 @@
                         />
                     </a>
                     <br />
-
 <h5 class="text-center" style="color:red;margin-top: 35px;">
 <?php
 if(isset($_POST['submit'])){
@@ -243,23 +187,16 @@ $err='';
     if($first_name =='') {
 		$err .='<li>'.'Please enter FName'.'</li>';
 	}
-
-
-
 	// validate email
 	if($from =='') {
 		$err .='<li>'.'Please enter Email address'.'</li>';
 	}
-
 // validate Captcha
-
 	if ($_SESSION["securityCode"] != $_POST["secCode"]) {
 $err .='<li>'.'Wrong Captcha Entered'.'</li>';
 unset($_SESSION['securityCode']);
 }
-
 	// validate attachments
-
 	if( $subject =='' ) {
 		$err .='<li>'.'Please Select subject detail'.'</li>';
 	}
@@ -271,28 +208,20 @@ unset($_SESSION['securityCode']);
 	}
 
 	else {
-
 	$subject = "Online Enquiry";
-
     $message .="First Name: " .$first_name."\n\n";
 	$message .="Last Name: " .$Last_name."\n\n";
 	$message .="Email: " .$from."\n\n";
     $message .="Phone Number: " . $phone . " \n\n" ;
     $message .="Subject: " . $_POST['subject'] ."\n\n";
     $message .= "Message: " . $_POST['message']."\n\n";
-
-
-
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-
     }
-
     }
 ?> </h5>
-
                     <br />
         <form id="contact-form" method="POST" action="" class="sky-form">
           <header>Reach <strong>Samiteon</strong></header>
@@ -380,21 +309,16 @@ unset($_SESSION['securityCode']);
                 </div>
             </div>
         </div>
-
-
-
         <div class="footer_bg">
             <div class="footer_topbg"></div>
             <div class="clearfix mar_top1"></div>
             <div class="container">
                 <div class="mar_top3"></div>
                 <div class="one_fourth">
-
                     <div class="footer_logo">
                         <img src='images/samiteon-footer-logo.png' alt="" />
                     </div>
                     <!-- end footer logo -->
-
                     <ul class="contact_address">
                         <li>
                             <i class="fa fa-map-marker fa-lg"></i>&nbsp; 659 South 8th Street 2nd Floor
@@ -408,31 +332,21 @@ unset($_SESSION['securityCode']);
                                 <img src='images/samiteon-footer-label.png' alt="" />
                             </a>
                         </li>
-
                     </ul>
-
-
-
-
                 </div>
                 <!-- end address section -->
-
                 <div class="one_fourth">
-
                     <h3 style="color: white;">
                         <a href="samiteon-company.html">About Us</a>
                     </h3>
-
                     <p class="" style="text-align: justify; color: #777777;">
                         Our technology firm is here to help you and your business. From any engineering needs you might have to product development.&nbsp;
                         <a href="samiteon-company.html">Read more&nbsp;
                             <i class="fa fa-angle-double-right"></i>
                         </a>
-
                     </p>
                     <br />
                     <h3 style="color: white;">Legal</h3>
-
                     <ul class="list">
                         <li>
                             <a href="samiteon-terms-and-conditions.html">
@@ -449,15 +363,10 @@ unset($_SESSION['securityCode']);
                     </ul>
                 </div>
                 <!-- end useful links -->
-
                 <div class="one_fourth">
-
-
-
                     <h3 style="color: white;">
                         <a href="data-protection.html">Data Protection</a>
                     </h3>
-
                     <ul class="list">
                         <li>
                             <a href="data-protection/samiteon-veeam.html">
@@ -469,12 +378,9 @@ unset($_SESSION['securityCode']);
                                 <i class="fa fa-angle-right"></i>&nbsp; Cohesity</a>
                         </li>
                     </ul>
-
-
                     <h3 style="color: white;">
                         <a href="data-center.html">Data Center & Cloud</a>
                     </h3>
-
                     <ul class="list">
                         <li>
                             <a href="data-center/samiteon-dell-emc.html">
@@ -491,12 +397,7 @@ unset($_SESSION['securityCode']);
                     </ul>
                 </div>
                 <!-- end tweets -->
-
-
-
-
                 <div class="one_fourth">
-
                     <h3 style="color: white;">
                         <a href="data-storage.html">Data Storage</a>
                     </h3>
@@ -541,22 +442,11 @@ unset($_SESSION['securityCode']);
                                 <i class="fa fa-angle-right"></i>&nbsp; Managed Services</a>
                         </li>
                     </ul>
-
-
-
-
                 </div>
                 <!-- end tweets -->
-
-
             </div>
-
-
             <div class="clearfix mar_top3"></div>
         </div>
-
-
-        
         <div class="footer_copyright">
             <div class="container">
                 <div class="clearfix mar_top1"></div>
@@ -568,9 +458,6 @@ unset($_SESSION['securityCode']);
             </div>
         </div>
         <a href="#" class="scrollup">go Top</a>
-
-
-
         <!-- ######### JS FILES ######### -->
         <!-- get jQuery from the google apis -->
         <script type="text/javascript" src='js/universal/jquery.js'></script>
@@ -682,7 +569,5 @@ unset($_SESSION['securityCode']);
                 e.stopPropagation()
             })
         </script>
-
-
 </body>
 </html>
